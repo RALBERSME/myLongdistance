@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.wrapper {
+  display: none;
+}
+.container {
+  position: relative;
+  margin: 1%;
+  padding: 5px;
+  display: flex;
+  background-image: url(https://cdn.pixabay.com/photo/2014/11/25/10/13/leaf-545050_640.jpg);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 5%;
+}
+.middle {
+  padding: 25px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.split {
+  display: flex;
+  gap: 25px;
+}
+
+#action {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 0px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+#action:hover {
+  background: #f6f9fe;
+  color: orangered;
+  font-weight: bold;
+}
+.invisible {
+  visibility: hidden;
+}
+.videos {
+  position: absolute;
+  top: 2%;
+  left: 23.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 15px;
+  height: 70vh;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#link {
+  text-decoration: overline underline;
+  padding-left: 500px;
+  color: rgb(58, 154, 29);
+}
+#link:hover {
+  color: orangered;
+}

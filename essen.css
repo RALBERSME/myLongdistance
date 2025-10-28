@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.25rem;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2024/07/01/20/29/ai-generated-8866025_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 60%;
+  color: whitesmoke;
+}
+.container {
+  display: flex;
+  margin: 25px;
+}
+.left {
+  height: 100vh;
+  width: 40vw;
+  padding: 5px 5px 5px 15px;
+}
+.middle {
+  height: 100vh;
+  width: 20vw;
+  padding: 50px;
+  text-align: center;
+}
+.right {
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  text-align: center;
+}
+#link {
+  text-decoration: none;
+  color: rgb(246, 147, 147);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.3rem;
+}
+#link:hover {
+  color: rgb(54, 158, 244);
+}

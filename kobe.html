@@ -3,13 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="kobe.css" />
     <title>Kobe</title>
   </head>
   <body>
-    Akashi Bridge Kobe
+    <div class="container">
+      <video id="videoPlayer" autoplay muted loop id="myVideo" height="1100px">
+        <source src="kobe.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="text">
+      <h2>
+        <br />
+        Oh mei, jetzt ist es schon Abend.<br />
+        Und ich wollte noch eine Postkarte schreiben und dann lecker
+        Kobe-Rindfleisch essen gehen....auf geht`s.
+      </h2>
+      <br /><br />
+      <button class="button" role="button" onclick="showPostcard()">
+        <br />richtig klicken, sonst klappt`s nicht
+      </button>
+    </div>
     <img
+      id="logo"
       src="https://cdn.pixabay.com/photo/2021/02/25/19/14/japan-6049860_640.png"
       alt=""
     />
+    <img
+      id="kobe"
+      src="https://cdn.pixabay.com/photo/2014/02/26/06/36/kobe-274876_640.jpg"
+    />
+    <div class="postkarte">
+      <img
+        id="karte"
+        src="https://cdn.pixabay.com/photo/2019/02/01/19/02/postcard-3969617_640.png"
+      />
+    </div>
+    <div class="white"></div>
+    <div id="message">
+      Wie der Turm Dir zeigt, bin ich nun in Kobe.<br />In Japans Buchstaben
+      findest Du noch viel mehr Wahrzeichen der Stadt. Wenn Du drüber hoverst,
+      wird alles groß.<br />
+      Groß ist auch mein Hunger.<br />
+      Ich geh jetzt essen.<br />
+      <br />Liebe Grüße!<br />
+      <div>
+        <br />
+        <a id="essen" href="essen.html">
+          ➽ klicke hier,<br />
+          um die Karte abzuschicken und zum Essen zu gehen</a
+        >
+      </div>
+    </div>
+    <div class="videos">
+      <iframe
+        width="200"
+        height="250"
+        src="https://www.youtube.com/embed/VnuK-30_CGc"
+        title="Der SCHÖNSTE HAFEN in ganz JAPAN? 🇯🇵 Kobe Vlog"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe
+      ><iframe
+        width="200"
+        height="250"
+        src="https://www.youtube.com/embed/R5WWxs0KqSE"
+        title="Kobe Japan Travel Guide: 18 BEST Things To Do In Kobe"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="200"
+        height="250"
+        src="https://www.youtube.com/embed/R6Qe3d-r5QU"
+        title="KOBE, JAPAN Travel Guide | Happy Trip"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <script src="kobe.js"></script>
   </body>
 </html>
