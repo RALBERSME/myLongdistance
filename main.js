@@ -14,6 +14,6 @@ function shipping() {
   sprechblase.classList.add("hide");
   sprechblase2.classList.remove("hide");
   body.style.backgroundImage =
-    "url(https://cdn.pixabay.com/photo/2024/03/24/05/37/asian-woman-8652456_640.jpg)";
+    "url(https://cdn.pixabay.com/photo/2024/03/06/08/54/ai-generated-8616059_640.png)";
   body.style.backgroundSize = "10%";
 }
