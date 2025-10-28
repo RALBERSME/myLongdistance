@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2022/04/28/04/21/sun-7161738_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+#aircraft {
+  margin-top: -30%;
+  width: 60%;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+h2 {
+  margin-bottom: 1.5%;
+  margin-top: 1.5%;
+}
+#link {
+  text-decoration: none;
+  color: orangered;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#link:hover {
+  color: dodgerblue;
+}

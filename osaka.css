@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2020/04/23/04/50/japan-5081058_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 2.5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2% 7.5%;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+hr {
+  margin: 1px auto;
+  height: 10px;
+  background-image: linear-gradient(
+    45deg,
+    hsla(184, 89%, 48%, 0),
+    hsla(207, 96%, 72%, 0) 33.33%,
+    rgb(113, 175, 241) 33.33%,
+    rgb(226, 232, 248) 66.67%,
+    hsla(220, 67%, 87%, 0) 66.67%,
+    hsla(207, 84%, 75%, 0) 100%
+  );
+  background-size: 10px 100%;
+  border: none;
+  width: 500px;
+}
+.images {
+  display: flex;
+  gap: 2%;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.link {
+  padding: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.link:hover {
+  transform: translateX(2px) translateY(2px);
+}
+.link a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+a:hover {
+  color: wheat;
+}

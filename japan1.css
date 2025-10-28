@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+
+  position: relative;
+}
+.container {
+  margin: 1%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  font-size: 1.25rem;
+}
+.leftText {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  width: 35%;
+  font-size: 1.25rem;
+  color: black;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/02/14/39/cherry-4895899_640.jpg);
+  background-repeat: no-repeat;
+}
+.rightText {
+  color: black;
+}
+.lastPart {
+  margin: 1% 5%;
+  font-size: 1.25rem;
+  color: black;
+  text-align: center;
+}
+.elemente {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 2%;
+}
+.color {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: 2px 12px 12px 2px rgba(0, 0, 0, 0.4);
+}
+h1 {
+  margin-bottom: 155px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.color:hover {
+  transform: scale(1.2) translateX(20px) translateY(10px);
+}
+.end {
+  width: 100%;
+  height: 35%;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/02/14/39/cherry-4895899_640.jpg);
+  background-repeat: repeat-x;
+}
