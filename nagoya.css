@@ -75,3 +75,11 @@ a {
 a:hover {
   color: dodgerblue;
 }
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: gray;
+  font-size: 3rem;
+  margin-left: 3%;
+}

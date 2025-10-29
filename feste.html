@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="feste.css" />
+    <title>Japanische Feste</title>
+  </head>
+  <body>
+    <section>
+      <div class="head">
+        <div class="controls">
+          <button id="prev" class="navBtn" aria-label="Prev">‹</button>
+          <button id="next" class="navBtn" aria-label="Next">›</button>
+        </div>
+        <h1>Vergnüge Dich auf traditionellen Festen</h1>
+        <div id="nextPage">
+          <a href="zen.html"> ➽ Klicke hier für weiter</a>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="track" id="track">
+          <article class="projectCard" active>
+            <img
+              class="bg"
+              src="https://cdn.pixabay.com/photo/2023/04/29/22/39/cherry-blossom-7959408_640.jpg"
+              alt=""
+            />
+            <div class="content">
+              <div>
+                <h3 class="title">Hanami</h3>
+                <p class="desc">Das Kirschblütenfest</p>
+                <br />
+                <button class="btn" onclick="showText(0)">
+                  ➽ klicke hier für Infos
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img
+              class="bg"
+              src="https://cdn.pixabay.com/photo/2013/04/05/13/55/child-100713_640.jpg"
+              alt=""
+            />
+            <div class="content">
+              <div>
+                <h3 class="title">Gion Matsuri</h3>
+                <p class="desc">Das Fest von Kyoto</p>
+                <br />
+                <button class="btn" onclick="showText(1)">
+                  ➽ klicke hier für Infos
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img
+              class="bg"
+              src="https://cdn.pixabay.com/photo/2020/04/09/01/04/geisha-5019240_640.jpg"
+              alt=""
+            />
+            <div class="content">
+              <div>
+                <h3 class="title">Obon</h3>
+                <p class="desc">Das Fest der Ahnen</p>
+                <br />
+                <button class="btn" onclick="showText(2)">
+                  ➽ klicke hier für Infos
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img
+              class="bg"
+              src="https://cdn.pixabay.com/photo/2020/02/27/04/26/japan-4883345_640.jpg"
+              alt=""
+            />
+            <div class="content">
+              <div>
+                <h3 class="title">Oshogatsu</h3>
+                <p class="desc">Das Neujahrsfest</p>
+                <br />
+                <button class="btn" onclick="showText(3)">
+                  ➽ klicke hier für Infos
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img
+              class="bg"
+              src="https://cdn.pixabay.com/photo/2013/01/09/17/35/festival-74471_640.jpg"
+              alt=""
+            />
+            <div class="content">
+              <div>
+                <h3 class="title">Tanabata</h3>
+                <p class="desc">Das Fest der Sternenliebe</p>
+                <br />
+                <button class="btn" onclick="showText(4)">
+                  ➽ klicke hier für Infos
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="dots" id="dots"></div>
+    </section>
+    <div class="showText"></div>
+    <script src="feste.js"></script>
+  </body>
+</html>
