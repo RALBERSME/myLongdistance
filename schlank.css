@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.container {
+  margin: 2%;
+  background-color: transparent;
+}
+@keyframes addBgContainer {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: rgba(115, 160, 1, 0.5);
+  }
+}
+.split {
+  display: flex;
+}
+.left {
+  width: 30%;
+  height: 90vh;
+  background-color: transparent;
+}
+@keyframes addBgLeft {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background: radial-gradient(
+      circle at 0%,
+      #333333,
+      #333333 50%,
+      #eeeeee 75%,
+      #333333 75%
+    );
+  }
+}
+.middle {
+  width: 40%;
+  height: 90vh;
+}
+@keyframes reduceWidth {
+  from {
+    width: 40%;
+  }
+  to {
+    width: 0%;
+  }
+}
+.wrapper {
+  width: 80%;
+  height: 550px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper2 {
+  width: 100%;
+  height: 600px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+#fat {
+  width: 75%;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.text {
+  padding: 25px;
+  height: 90vh;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+}
+@keyframes addBgText {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background: radial-gradient(
+      circle at 100%,
+      rgba(115, 160, 1, 0.5),
+      rgba(115, 160, 1, 0.5) 50%,
+      #eeeeee 75%,
+      rgba(115, 160, 1, 0.5) 75%
+    );
+  }
+}
+#problem {
+  transform: translateX(-700px);
+}
+#japan {
+  transform: translateX(-700px);
+}
+@keyframes showText {
+  from {
+    transform: translateX(-700px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.invisible {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.right {
+  width: 30%;
+  height: 90vh;
+  display: flex;
+  background-color: transparent;
+}
+@keyframes addBgRight {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background: radial-gradient(
+      circle at 100%,
+      #333333,
+      #333333 50%,
+      #eeeeee 75%,
+      #333333 75%
+    );
+  }
+}
+.text2 {
+  width: 80%;
+  padding: 35px 35px 35px 150px;
+  background-color: transparent;
+  height: 90vh;
+}
+@keyframes addBgText2 {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background: radial-gradient(
+      circle at 100%,
+      rgba(115, 160, 1, 0.5),
+      rgba(115, 160, 1, 0.5) 50%,
+      #eeeeee 75%,
+      rgba(115, 160, 1, 0.5) 75%
+    );
+  }
+}
+.text3 {
+  width: 80%;
+  padding: 35px 35px 35px 150px;
+  background-color: transparent;
+  height: 90vh;
+}
+@keyframes addBgText3 {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background: radial-gradient(
+      circle at 0%,
+      rgba(115, 160, 1, 0.5),
+      rgba(115, 160, 1, 0.5) 50%,
+      #eeeeee 75%,
+      rgba(115, 160, 1, 0.5) 75%
+    );
+  }
+}
+
+ul {
+  list-style: none;
+  width: 250%;
+  visibility: hidden;
+}
+@keyframes moveUl {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+li {
+  padding: 25px;
+  background-color: white;
+  border-radius: 0 24px 24px 0;
+  margin-bottom: 5px;
+  width: 280%;
+  text-align: end;
+  z-index: 2;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  z-index: 2;
+  padding-left: 80px;
+}
+li:hover {
+  background-color: rgb(242, 247, 177);
+}
+#nextPage {
+  font-weight: bold;
+}
