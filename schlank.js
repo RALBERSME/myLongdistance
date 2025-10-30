@@ -30,8 +30,9 @@ function changeScene() {
   left.style.animation = "addBgLeft 2s ease forwards";
   container.style.animation = "addBgContainer 2s ease forwards";
   setTimeout(() => {
-    text.innerHTML = `<h1>Schau'n wir <br>mal nach Japan!`;
-    text.style.paddingTop = "30%";
+    text.innerHTML = `<h1>Schau'n wir <br>mal nach Japan!</h1>`;
+    text.style.paddingTop = "55%";
+    text.style.color = "white";
     document.querySelector(".middle").style.animation =
       "reduceWidth 3s linear forwards";
     document.querySelector("ul").style.animation = "moveUl 3s linear forwards";
