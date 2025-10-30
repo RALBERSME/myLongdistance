@@ -46,3 +46,26 @@ a {
 a:hover {
   color: rgb(243, 243, 144);
 }
+#japanerin {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: scale(0);
+  animation: japCom 3s 16s linear forwards;
+}
+@keyframes japCom {
+  from {
+    top: 30%;
+    transform: scale(0);
+  }
+  to {
+    top: 60%;
+    transform: scale(1);
+  }
+}
+
+#cta {
+  background-color: rgba(254, 254, 254, 0.5);
+  border-radius: 5px;
+  padding: 3px;
+}

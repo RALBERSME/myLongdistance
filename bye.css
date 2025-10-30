@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper {
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(9, minmax(12vmin, 1fr));
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0)
+  );
+  & img {
+    --time: 35s;
+    position: relative;
+    width: 105%;
+    aspect-ratio: 1;
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: cover;
+    left: calc(100% * 9);
+    animation: marquee var(--time) linear infinite;
+
+    &:nth-of-type(1) {
+      animation-delay: calc((var(--time) / 9) * (9 - 1) * -1);
+    }
+    &:nth-of-type(2) {
+      animation-delay: calc((var(--time) / 9) * (9 - 2) * -1);
+    }
+    &:nth-of-type(3) {
+      animation-delay: calc((var(--time) / 9) * (9 - 3) * -1);
+    }
+    &:nth-of-type(4) {
+      animation-delay: calc((var(--time) / 9) * (9 - 4) * -1);
+    }
+    &:nth-of-type(5) {
+      animation-delay: calc((var(--time) / 9) * (9 - 5) * -1);
+    }
+    &:nth-of-type(6) {
+      animation-delay: calc((var(--time) / 9) * (9 - 6) * -1);
+    }
+    &:nth-of-type(7) {
+      animation-delay: calc((var(--time) / 9) * (9 - 7) * -1);
+    }
+    &:nth-of-type(8) {
+      animation-delay: calc((var(--time) / 9) * (9 - 8) * -1);
+    }
+    &:nth-of-type(9) {
+      animation-delay: calc((var(--time) / 9) * (9 - 9) * -1);
+    }
+  }
+}
+@keyframes marquee {
+  to {
+    left: -100%;
+  }
+}
+
+#text {
+  color: white;
+  font-size: 3.5rem;
+  width: 100%;
+  transform: translateX(150px);
+}
+
+#thanks {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  font-size: 1.5rem;
+  color: white;
+  transform: translateX(-100);
+}
+
+.flex {
+  margin-bottom: -70px;
+}
+#date {
+  transform: translateY(-50px);
+}
