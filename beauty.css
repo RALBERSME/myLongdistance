@@ -95,3 +95,11 @@ h4 {
 #nextPage:hover {
   color: rgb(215, 34, 34);
 }
+#woman {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  top: 2.5%;
+  left: 60%;
+}
