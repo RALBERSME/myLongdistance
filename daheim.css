@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.container {
+  margin: 2.5%;
+  height: 90vh;
+  background-image: url(https://cdn.pixabay.com/photo/2013/02/17/07/20/dusseldorf-82440_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 50%;
+}
+#woman {
+  height: 400px;
+  width: 300px;
+  transform: translateX(0px) translateY(130px);
+  animation: runWoman 12s 4s linear forwards;
+}
+@keyframes runWoman {
+  from {
+    transform: translateX(0px) translateY(130px);
+  }
+  to {
+    transform: translateX(1600px) translateY(230px);
+  }
+}
+p {
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.35rem;
+  border-radius: 5%;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+a:hover {
+  color: rgb(243, 243, 144);
+}
