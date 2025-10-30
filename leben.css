@@ -46,6 +46,11 @@ body {
 .idea {
   margin-bottom: 10px;
 }
+.ideas:hover {
+  transform: scale(1.1) translateX(200px) translateY(10px);
+  z-index: 20;
+}
+
 .idea a {
   text-decoration: none;
   color: white;
@@ -54,7 +59,9 @@ body {
   border-radius: 5px;
   font-size: 1.2rem;
 }
-
+.idea a:hover {
+  color: rgb(245, 203, 247);
+}
 .red {
   color: red;
   animation: animateHeart 2s linear infinite;
