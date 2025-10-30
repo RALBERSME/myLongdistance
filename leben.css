@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.container {
+  margin: 1%;
+  display: flex;
+}
+.left {
+  width: 40vw;
+  height: 90vh;
+  position: relative;
+  padding: 1%;
+}
+#city {
+  width: 100%;
+  height: 70%;
+  border-radius: 5%;
+  z-index: 1;
+}
+#people {
+  position: absolute;
+  top: 19%;
+  left: 15%;
+  transform: scale(0.9);
+  z-index: 2;
+}
+.right {
+  padding: 1%;
+  width: 55vw;
+  font-size: 1.2rem;
+}
+.ideas {
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  height: 90vh;
+  width: 40vw;
+  padding: 1%;
+}
+.idea {
+  margin-bottom: 10px;
+}
+.idea a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  background-color: gray;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.red {
+  color: red;
+  animation: animateHeart 2s linear infinite;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@keyframes animateHeart {
+  from {
+    color: red;
+  }
+  to {
+    color: rgb(242, 0, 255);
+  }
+}
+#nextPage {
+  color: rgb(242, 0, 255);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+#nextPage:hover {
+  color: red;
+}
