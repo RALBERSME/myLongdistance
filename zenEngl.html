@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="zen.css" />
+    <title>Relaxation and Zen</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="music">
+        <div class="button">
+          <a href="#" onclick="changeBg()"> ➽ Choose a different background.</a>
+        </div>
+        <figure>
+          <figcaption>
+            ➽ Listen to the Zen Garden sounds from SounovaMusic:<br /><br />
+          </figcaption>
+          <audio controls src="zen-garden.mp3"></audio>
+        </figure>
+        <figure>
+          <figcaption>
+            ➽ Listen to the relaxing beats from Godgrafix:<br /><br />
+          </figcaption>
+          <audio controls src="entspannungsbeats.mp3"></audio>
+        </figure>
+        <figure>
+          <figcaption>
+            ➽ Listen to Zen Wind by Grand Project:<br /><br />
+          </figcaption>
+          <audio controls src="zen-wind.mp3"></audio>
+        </figure>
+        <div class="button">
+          <a href="#" onclick="showText()">
+            ➽ click here for <br />information</a
+          >
+        </div>
+        <div class="button">
+          <a id="nextPage" href="zen2Engl.html"> ➽ click here to continue</a>
+        </div>
+      </div>
+      <div class="info">
+        Zen in Japan is more than a religion – it's a way of life that
+        emphasizes stillness, mindfulness, and simplicity. Many Zen gardens,
+        with carefully arranged stone layouts and raked sand patterns, invite
+        meditative contemplation and convey tranquility even to non-believers.
+        In temples like those in Kyoto or Kamakura, one can sit quietly,
+        breathe, and listen to the gentle sounds of tea ceremonies or gong
+        strikes.<br /><br />
+        Zen meditation, Zazen, is often practiced in groups, but even short
+        periods of sitting help to leave the daily grind behind and turn one's
+        gaze inward. Japanese culture connects Zen with minimalist design, clean
+        lines, and muted colors – precisely what is calming when wandering
+        through cities and forests.<br /><br />
+        When visiting a Zen garden, one senses the slow pace of Zen: footsteps
+        on soft gravel paths, the rustling of bamboo, and the balance between
+        humanity and nature. Zen temples often offer quiet spaces where one can
+        escape everyday life for a few minutes, without large crowds or loud
+        noises. Those seeking relaxation will find in Zen-oriented experiences a
+        calm, honest atmosphere that organizes the chaos of thoughts without
+        being didactic. Contemplation is not just imagination, but practice,
+        patience, and respect for the silent present.<br /><br />
+        <p onclick="hideText()">➽ Click here to hide information.</p>
+      </div>
+      <img
+        id="centerImage"
+        width="400px"
+        height="400px"
+        src="images/steeg.jpg"
+      />
+    </div>
+    <script src="zen.js"></script>
+  </body>
+</html>

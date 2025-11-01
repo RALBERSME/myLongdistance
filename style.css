@@ -125,6 +125,23 @@ button {
 .hide {
   display: none;
 }
+.translation {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 5px;
+}
+.translation a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.translation a:hover {
+  color: rgb(231, 198, 8);
+}
 /* Mobile Message */
 .mobile-message {
   display: none;

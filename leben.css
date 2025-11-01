@@ -67,6 +67,7 @@ body {
   animation: animateHeart 2s linear infinite;
   font-size: 1.25rem;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @keyframes animateHeart {
@@ -82,6 +83,7 @@ body {
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 #nextPage:hover {
   color: red;

@@ -60,7 +60,7 @@ body {
 }
 
 .button:after {
-  content: " ➽ klicke hier für die Postkarte";
+  content: " ➽ Click here for the postcard";
   position: absolute;
   border: 1px solid #000000;
   bottom: 4px;

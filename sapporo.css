@@ -49,9 +49,9 @@ body {
   color: rgb(246, 246, 136);
 }
 #link:hover {
-  color: dodgerblue;
+  color: rgb(4, 66, 127);
 }
 .blue {
-  color: dodgerblue;
+  color: rgb(4, 66, 127);
   font-weight: 700;
 }

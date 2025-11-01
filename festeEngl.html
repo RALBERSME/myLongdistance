@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="feste.css" />
+    <title>Japanese Festivals</title>
+  </head>
+  <body>
+    <section>
+      <div class="head">
+        <div class="controls">
+          <button id="prev" class="navBtn" aria-label="Prev">‹</button>
+          <button id="next" class="navBtn" aria-label="Next">›</button>
+        </div>
+        <h1>Enjoy yourself at traditional festivals.</h1>
+        <div id="nextPage">
+          <a href="zenEngl.html"> ➽ click here to continue</a>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="track" id="track">
+          <article class="projectCard" active>
+            <img class="bg" src="images/cherry-blossom.jpg" alt="" />
+            <div class="content">
+              <div>
+                <h3 class="title">Hanami</h3>
+                <p class="desc">The cherry blossom festival</p>
+                <br />
+                <button class="btn" onclick="showText(0)">
+                  ➽ Click here for information.
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img class="bg" src="images/drummerGirl.jpg" alt="" />
+            <div class="content">
+              <div>
+                <h3 class="title">Gion Matsuri</h3>
+                <p class="desc">The Kyoto Festival</p>
+                <br />
+                <button class="btn" onclick="showText(1)">
+                  ➽ Click here for information.
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img class="bg" src="images/geisha.jpg" alt="" />
+            <div class="content">
+              <div>
+                <h3 class="title">Obon</h3>
+                <p class="desc">The Feast of the Ancestors</p>
+                <br />
+                <button class="btn" onclick="showText(2)">
+                  ➽ Click here for information.
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img class="bg" src="images/japanWoman.jpg" alt="" />
+            <div class="content">
+              <div>
+                <h3 class="title">Oshogatsu</h3>
+                <p class="desc">The New Year's celebration</p>
+                <br />
+                <button class="btn" onclick="showText(3)">
+                  ➽ Click here for information.
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="projectCard" active>
+            <img class="bg" src="images/festival.jpg" alt="" />
+            <div class="content">
+              <div>
+                <h3 class="title">Tanabata</h3>
+                <p class="desc">The Festival of Star Love</p>
+                <br />
+                <button class="btn" onclick="showText(4)">
+                  ➽ Click here for information.
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="dots" id="dots"></div>
+    </section>
+    <div class="showText"></div>
+    <script src="festeEngl.js"></script>
+  </body>
+</html>

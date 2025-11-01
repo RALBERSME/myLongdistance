@@ -160,6 +160,9 @@ body {
   font-size: 1rem;
   line-height: 1.4;
   max-width: 16rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
 }
 .btn {
   padding: 0.55rem 1.3rem;
