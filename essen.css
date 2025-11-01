@@ -9,7 +9,7 @@ body {
   font-size: 1.25rem;
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn.pixabay.com/photo/2024/07/01/20/29/ai-generated-8866025_640.jpg");
+    url("images/feldweg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20% 60%;

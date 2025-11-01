@@ -9,7 +9,7 @@ body {
 .container {
   margin: 1%;
   padding: 2.5%;
-  background-image: url(https://cdn.pixabay.com/photo/2020/04/28/22/57/delicate-5106567_640.jpg);
+  background-image: url(images/löwenzahn.jpg);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;

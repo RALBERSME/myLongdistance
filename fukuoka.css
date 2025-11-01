@@ -14,7 +14,7 @@ body {
   margin: 1%;
   padding: 5px;
   display: flex;
-  background-image: url(https://cdn.pixabay.com/photo/2014/11/25/10/13/leaf-545050_640.jpg);
+  background-image: url(images/leaf.jpg);
 }
 .left {
   display: flex;
@@ -99,10 +99,17 @@ li {
   flex-direction: row;
   justify-content: space-between;
 }
+.linkPage {
+  position: absolute;
+  top: 5%;
+  left: 88%;
+  width: 180px;
+  height: 100px;
+}
 #link {
   text-decoration: overline underline;
-  padding-left: 500px;
-  color: rgb(58, 154, 29);
+  color: rgb(17, 66, 3);
+  font-size: 1.4rem;
 }
 #link:hover {
   color: orangered;

@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(https://cdn.pixabay.com/photo/2020/12/30/16/11/light-bulb-5873872_640.jpg);
+  background-image: url(images/light-bulb.jpg);
   background-repeat: repeat-x;
   background-color: black;
   overflow: hidden;

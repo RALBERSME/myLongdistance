@@ -5,7 +5,7 @@
 }
 body {
   height: 100vh;
-  background-image: url(https://cdn.pixabay.com/animation/2025/01/26/02/43/02-43-05-994_512.gif);
+  background-image: url(images/fallingSnow.gif);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -19,10 +19,10 @@ body {
 .video {
   margin: 1.1%;
   padding: 5% 0.5% 1.5% 0.5%;
-  background-image: url(https://cdn.pixabay.com/animation/2025/01/25/14/10/14-10-25-92_512.gif);
+  background-image: url(images/explodeStar.gif);
   background-repeat: repeat-x;
   background-size: 5%;
-  background-color: rgba(254, 140, 140, 0.4);
+  background-color: rgba(224, 123, 123, 0.75);
   border-radius: 5px;
   display: flex;
   justify-content: center;

@@ -22,7 +22,7 @@ body {
 
 .menu .user {
   position: relative;
-  background-image: url(https://cdn.pixabay.com/photo/2021/12/21/03/56/street-6884534_640.jpg);
+  background-image: url(images/gasse.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 30%;
@@ -121,4 +121,17 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+#hack {
+  color: orange;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+#hack:hover {
+  color: white;
 }

@@ -5,15 +5,12 @@ const sprechblase = document.getElementById("sprechblase");
 const sprechblase2 = document.getElementById("sprechblase2");
 const body = document.querySelector("body");
 function shipping() {
-  image.setAttribute(
-    "src",
-    "https://cdn.pixabay.com/photo/2023/02/07/21/09/ai-generated-7775168_640.png"
-  );
+  image.setAttribute("src", "images/noodleShip.png");
   cta.classList.add("hide");
   cta2.classList.remove("hide");
   sprechblase.classList.add("hide");
   sprechblase2.classList.remove("hide");
-  body.style.backgroundImage =
-    "url(https://cdn.pixabay.com/photo/2024/03/06/08/54/ai-generated-8616059_640.png)";
+  body.style.backgroundImage = "url(images/wave.png)";
   body.style.backgroundSize = "10%";
+  document.getElementById("frame").classList.remove("hide");
 }

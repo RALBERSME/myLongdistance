@@ -8,7 +8,7 @@ body {
 }
 .container {
   margin: 1%;
-  background-image: url(https://cdn.pixabay.com/photo/2023/11/17/16/54/boat-8394639_640.jpg);
+  background-image: url(images/boat.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;

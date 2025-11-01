@@ -12,11 +12,11 @@ body {
   margin: 1%;
   margin-top: 35px;
   height: 95vh;
-  background-image: url(https://cdn.pixabay.com/photo/2024/10/05/01/15/ai-generated-9097796_640.jpg);
+  background-image: url(images/Holzwand.jpg);
   padding: 25px;
 }
 .images {
-  background-image: url(https://cdn.pixabay.com/animation/2022/10/28/03/56/03-56-13-930_512.gif);
+  background-image: url(images/flyingMoney.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 450px;

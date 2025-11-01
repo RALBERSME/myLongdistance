@@ -68,7 +68,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .middle {
-  background-image: url(https://cdn.pixabay.com/photo/2025/07/24/04/44/lotus-9731872_640.jpg);
+  background-image: url(images/lotus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;

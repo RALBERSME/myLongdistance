@@ -11,7 +11,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  background: url(https://cdn.pixabay.com/animation/2025/06/09/20/27/20-27-51-661_512.gif);
+  background: url(images/meer.gif);
   background-repeat: repeat;
   background-size: 25%;
 }
