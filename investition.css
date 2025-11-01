@@ -106,3 +106,6 @@ a:hover {
 .leave:hover {
   background-color: rgb(224, 180, 22);
 }
+.leave a:hover {
+  color: orangered;
+}
