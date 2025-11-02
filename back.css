@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  margin: 2.5%;
+  background-image: url(images/himmel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.tokyo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#intro {
+  font-size: 1.1rem;
+  padding: 5px 15px;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  justify-content: space-between;
+  gap: 50px;
+}
+marquee {
+  font-size: 1.5rem;
+  text-align: center;
+}
