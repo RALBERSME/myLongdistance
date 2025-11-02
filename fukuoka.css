@@ -108,8 +108,9 @@ li {
 }
 #link {
   text-decoration: overline underline;
-  color: rgb(17, 66, 3);
+  color: rgb(3, 61, 119);
   font-size: 1.4rem;
+  font-weight: bold;
 }
 #link:hover {
   color: orangered;
