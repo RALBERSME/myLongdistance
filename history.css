@@ -110,3 +110,9 @@ body {
 .nextPage a:hover {
   color: dodgerblue;
 }
+.news {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
