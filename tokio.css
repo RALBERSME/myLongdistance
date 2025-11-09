@@ -51,3 +51,8 @@ a:hover {
   gap: 10px;
   width: 90%;
 }
+.first {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
