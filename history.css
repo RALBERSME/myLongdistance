@@ -90,10 +90,10 @@ body {
 
 .info {
   margin-top: 10%;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   text-align: center;
   padding: 5%;
-  background-color: rgba(254, 254, 254, 0.5);
+  background-color: rgba(254, 254, 254, 0.7);
   border-radius: 15px;
   color: black;
 }
