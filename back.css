@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
+  position: relative;
 }
 
 .tokyo {
@@ -35,4 +36,16 @@ body {
 marquee {
   font-size: 1.5rem;
   text-align: center;
+}
+.sounds {
+  position: absolute;
+  z-index: 2;
+  top: 37%;
+  left: 0%;
+  display: flex;
+  justify-content: left;
+  color: black;
+}
+figure {
+  transform: scale(0.75);
 }
