@@ -6,10 +6,17 @@
 body {
   height: 100vh;
   background-color: antiquewhite;
+  overflow: hidden;
 }
 .container {
   margin: 1%;
   display: flex;
+}
+.top {
+  display: flex;
+}
+.sounds {
+  transform: scale(0.8);
 }
 .left {
   width: 40vw;
