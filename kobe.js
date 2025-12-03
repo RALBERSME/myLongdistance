@@ -9,6 +9,7 @@ setTimeout(() => {
 }, 2000);
 
 function showPostcard() {
+  document.getElementById("myAudio").play();
   text.classList.add("hide");
   postkarte.style.animation = "getPost 3s linear forwards";
   setTimeout(() => {
