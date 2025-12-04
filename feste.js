@@ -118,8 +118,13 @@ const festeArray = [
   ` <br/><br/>Es findet in der Zeit vom 1. bis 3. Januar landesweit in Häusern, Tempeln, Schreinen und Geschäften statt. Das Fest markiert den Beginn des neuen Jahres. <br/><br/>Typische Rituale sind das Zählen der Glockenschläge, Tempel- bzw. Schreinsbesuch (Hatsumode), das Essen spezieller Neujahrsgerichte (osechi-ryori) und das Öffnen von Glückwünschen. Familien treffen sich, um gemeinsam zu essen, Pläne zu schmieden und sich zu besinnen.<br/><br/> Traditionelle Glücksbringer wie Daruma-Figuren werden besorgt und der Farbrausch der Displays bringt Fröhlichkeit in die Städte. Man wünscht Gesundheit, Glück und Erfolg im kommenden Jahr.`,
   `Je nach Region wird es im Juli oder August gefeiert. Es findet in Städten wie Sendai (Tanzaku-Wünsche am Tanabata-Fest) und überall in Japans Schreinen und Parks statt. <br/><br/>Tanabata basiert auf einer Astrologie- / Legende der Liebesgötter Vega und Altair. Menschen schreiben Wünsche auf bunte Zettel (tanzaku) und hängen sie an Bambussträucher.<br/><br/> Das Fest wird oft mit Paraden, Bühnenprogrammen und handwerklichen Ständen verbunden. In vielen Städten gibt es beeindruckende Licht- und Farbenfeste, die die Fantasie anregen. <br/><br/>Traditionell wird der Wunsch an den Bambus geschrieben, und der Bambus bleibt oft bis zur nächsten Tanabata bestehen. Es symbolisiert Hoffnung, Träume und die Verbindung von Menschen, Natur und Sternen.`,
 ];
+
 const textform = document.querySelector(".showText");
 function showText(num) {
   textform.style.display = "block";
   textform.innerHTML = festeArray[num];
+  document.getElementById(`${num}`).play();
+  setTimeout(() => {
+    document.getElementById(`${num}`).pause();
+  }, 8000);
 }

@@ -121,4 +121,8 @@ const textform = document.querySelector(".showText");
 function showText(num) {
   textform.style.display = "block";
   textform.innerHTML = festeArray[num];
+  document.getElementById(`${num}`).play();
+  setTimeout(() => {
+    document.getElementById(`${num}`).pause();
+  }, 8000);
 }
